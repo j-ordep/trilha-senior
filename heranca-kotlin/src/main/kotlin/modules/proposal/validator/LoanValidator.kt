@@ -3,7 +3,7 @@ package org.example.modules.proposal.validator
 import org.example.modules.proposal.entities.LoanProposal
 import org.example.modules.proposal.validator.errors.BusinesError
 
-// por padão classes em Kotlin são final (sem herança)
+// por padrão classes em Kotlin são final (sem herança)
 // open = “essa classe pode ser herdada”
 // val = imutavel - var = mutavel
 // protected = só a classe e suas subclasses podem acessar
