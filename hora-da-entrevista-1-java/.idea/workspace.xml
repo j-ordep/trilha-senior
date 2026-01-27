@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb41cd68-67e6-41fb-8273-9066a7d3f3a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/design-linguagens-paradigmas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora da entrevista-1-go/src/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hora-da-entrevista-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/sla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hora da entrevista-1-go/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hora da entrevista-1-go/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,33 +67,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.hora-da-entrevista-1-java [:Main.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:MainImperativo.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:MainKt.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:MainOLD.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:MainStream.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:org.example.Main.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:tilha.senior.MainKt.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:tilha.senior.ex03.MainFuncionalKt.main()].executor": "Run",
-    "Gradle.hora-da-entrevista-1-java [:tilha.senior.ex03.MainKt.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1-java/src/main/java",
-    "last_opened_file_path": "C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1-java/src/main/java/org/example",
-    "onboarding.tips.debug.path": "C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.hora-da-entrevista-1-java [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:MainImperativo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:MainOLD.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:MainStream.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:tilha.senior.MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:tilha.senior.ex03.MainFuncionalKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hora-da-entrevista-1-java [:tilha.senior.ex03.MainKt.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1-java/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1-java/src/main/java/org/example&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/trilha-senior/design-linguagens-paradigmas/hora-da-entrevista-1/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\trilha-senior\design-linguagens-paradigmas\hora-da-entrevista-1-java\src\main\java\org\example" />

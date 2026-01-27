@@ -23,6 +23,7 @@ open class LoanValidator {
         }
     }
 
+    // OPEN na função para podermos fazer override nela
     open fun validateIncome(proposal: LoanProposal) {
         if (proposal.income < 1000) {
             errors.add(BusinesError("INCOME_TOO_LOW", "Income is too low"))

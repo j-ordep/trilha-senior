@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f580568-42b3-4ae2-9949-cb3576f39a89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/design-linguagens-paradigmas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hora-da-entrevista-1-java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/hora-da-entrevista-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hora-da-entrevista-1-java/src/model/sla.java" beforeDir="false" />
-    </list>
+    <list default="true" id="7f580568-42b3-4ae2-9949-cb3576f39a89" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,21 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Go Build.go build github.com/j-ordep/trilha-senior.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/trilha-senior/design-linguagens-paradigmas/hora da entrevista-1-go&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Go Build.go build github.com/j-ordep/trilha-senior.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.sdk.automatically.set": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/dev/trilha-senior/design-linguagens-paradigmas/hora da entrevista-1-go",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="go build github.com/j-ordep/trilha-senior" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="hora da entrevista-1-go" />
