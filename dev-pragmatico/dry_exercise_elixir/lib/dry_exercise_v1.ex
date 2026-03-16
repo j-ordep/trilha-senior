@@ -1,4 +1,4 @@
-defmodule TaxCalculator do
+defmodule TaxCalculatorV1 do
 
   # O Elixir escolhe qual função executar baseado no padrão dos argumentos(parametro)
 
