@@ -10,10 +10,17 @@ public class Main {
         final var source = Paths.get("gopher.png");
         final var target = Paths.get("out.png");
 
+        /* try {
+            copy(source, target);
+        } catch (Exception e) {
+            // System.err.println(e); // só loga sem saber de fato o que aconteceu (usando Exception e)
+            throw new RuntimeException(e); // com isso vemos toda a StackTrace, gera pressão no GC para limpar toda a stack, com alta carga gera gargalo
+        } */
+
         try {
             copy(source, target);
         } catch (Exception e) {
-            System.err.println(e);
+            throw new NoStackTraceException("Error: File Already Exists");
         }
 
     }
