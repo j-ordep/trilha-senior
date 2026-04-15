@@ -32,6 +32,8 @@ open class LoanValidator {
 
 }
 
+// subclasse igual a classe validateIncome, então muito provavelmente income deveria ser um parametro
+// e termos apenas uma classe com um metodo, que muda de acordo com o valor do parametro
 class PremiumLoanValidator: LoanValidator() {
     override fun validateIncome(proposal: LoanProposal) {
         if (proposal.income < 3000) {

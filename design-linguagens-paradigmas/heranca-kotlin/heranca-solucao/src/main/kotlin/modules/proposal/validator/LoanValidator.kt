@@ -3,39 +3,30 @@ package org.example.modules.proposal.validator
 import org.example.modules.proposal.entities.LoanProposal
 import org.example.modules.proposal.validator.errors.BusinesError
 
-// por padrão classes em Kotlin são final (sem herança)
-// open = “essa classe pode ser herdada”
-// val = imutavel - var = mutavel
-// protected = só a classe e suas subclasses podem acessar
-
-open class LoanValidator {
-    protected var errors = mutableListOf<BusinesError>()
-
-    fun validate(proposal: LoanProposal): List<BusinesError> {
-        validateCreditScore(proposal)
-        validateIncome(proposal)
-        return errors
-    }
-
-    private fun validateCreditScore(proposal: LoanProposal) {
-        if (proposal.creditScore < 500) {
-            errors.add(BusinesError("CREDIT_SCORE_TOO_LOW", "Credit score is too low"))
-        }
-    }
-
-    // OPEN na função para podermos fazer override nela
-    open fun validateIncome(proposal: LoanProposal) {
-        if (proposal.income < 1000) {
-            errors.add(BusinesError("INCOME_TOO_LOW", "Income is too low"))
-        }
-    }
-
+/*
+    - Elimina estado compartilhado
+    - Cada classe tem uma única responsabilidade (SRP)
+    - Aberto para extensão, fechado para modificação (OCP)
+*/
+class LoanValidator(
+    private val validators: List<Validator>
+) {
+    fun validate(proposal: LoanProposal): List<BusinesError> =
+        validators.flatMap { it.validate(proposal) }
 }
 
-class PremiumLoanValidator: LoanValidator() {
-    override fun validateIncome(proposal: LoanProposal) {
-        if (proposal.income < 3000) {
-            errors.add(BusinesError("INCOME_TOO_LOW", "Income is too low"))
-        }
-    }
+class CreditScoreValidator : Validator {
+    override fun validate(proposal: LoanProposal) =
+        if (proposal.creditScore < 500)
+            listOf(BusinesError("CREDIT_SCORE_TOO_LOW", "Credit score is too low"))
+        else emptyList()
+}
+
+// parametro que muda menos
+class IncomeValidator(private val minIncome: Int) : Validator {
+    // parametro que muda mais
+    override fun validate(proposal: LoanProposal) =
+        if (proposal.income < minIncome)
+            listOf(BusinesError("INCOME_TOO_LOW", "Income is too low"))
+        else emptyList()
 }

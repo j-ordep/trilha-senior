@@ -24,6 +24,7 @@ void main() {
     String result = null; // quem mandou mais mensagem
     int bigger = 0; // quantas mensagens a pessoa mais enviou
 
+    // smell - loop dentro de loop
     for (Message m1 : data) { // O(N)
          int counter = 0;
          for (Message m2 : data) { // O(N)
@@ -39,6 +40,8 @@ void main() {
 
     System.out.println(result);
 
+    // smell - aninhamentos de IFs dentro de um for
+    // poderia usar hashSet (MAP em go), pois o um Hash (SET no caso) elimina duplicatas, descartando assim o if (!temp.contains(m.person))
     List<String> temp = new ArrayList<>(); // transformar em HASH SET
     for (Message m : data) {
         if (m.text != null && !m.text.isBlank() && !m.isRead) {
@@ -48,6 +51,8 @@ void main() {
         }
     }
 
+    // smell - muito aninhamento
+    // Linguagens já tem libs de sort (ordenação)
     for (int i = 0; i < temp.size(); i++) {
         for (int j = 0; j < temp.size(); j++) {
             if (temp.get(i).compareTo(temp.get(j)) > 0) {

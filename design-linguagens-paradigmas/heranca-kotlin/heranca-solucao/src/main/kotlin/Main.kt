@@ -1,7 +1,9 @@
 package org.example
 
 import org.example.modules.proposal.entities.LoanProposal
-import org.example.modules.proposal.validator.PremiumLoanValidator
+import org.example.modules.proposal.validator.CreditScoreValidator
+import org.example.modules.proposal.validator.IncomeValidator
+import org.example.modules.proposal.validator.LoanValidator
 
 // TODO transformar em uma solução de composição e/ou interfaces
 
@@ -10,7 +12,13 @@ import org.example.modules.proposal.validator.PremiumLoanValidator
 */
 
 fun main() {
-    val validator = PremiumLoanValidator()
+    val validator = LoanValidator(
+        listOf(
+            CreditScoreValidator(),
+            IncomeValidator(minIncome = 3000)
+        )
+    )
+
     val proposal = LoanProposal(income = 1000, creditScore = 500, creditAmount = 1000.toBigDecimal())
     val errors = validator.validate(proposal)
     println(errors)

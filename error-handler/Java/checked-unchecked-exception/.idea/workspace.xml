@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6398c680-c36a-4438-ae7c-9f1f35e9124f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-problemas/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-problemas/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-problemas/src/main/kotlin/modules/proposal/validator/LoanValidator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-problemas/src/main/kotlin/modules/proposal/validator/LoanValidator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/src/main/kotlin/modules/proposal/validator/LoanValidator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/heranca-kotlin/heranca-solucao/src/main/kotlin/modules/proposal/validator/LoanValidator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/src/main/java/tilha/senior/ex01/MainOLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../design-linguagens-paradigmas/teste-tecnico-java-kotlin/src/main/java/tilha/senior/ex01/MainOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../dev-pragmatico/dry_exercise_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../dev-pragmatico/dry_exercise_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../dev-pragmatico/dry_exercise_java/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../dev-pragmatico/dry_exercise_java/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/dev/trilha-senior/error-handler/Java/checked-unchecked-exception" value="3COZI9QGqlfGc97dkus8fo1cAuD" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3COZI9QGqlfGc97dkus8fo1cAuD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6398c680-c36a-4438-ae7c-9f1f35e9124f" name="Changes" comment="" />
+      <created>1776258500803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776258500803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
