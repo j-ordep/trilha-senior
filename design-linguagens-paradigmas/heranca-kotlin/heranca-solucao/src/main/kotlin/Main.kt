@@ -5,16 +5,17 @@ import org.example.modules.proposal.validator.CreditScoreValidator
 import org.example.modules.proposal.validator.IncomeValidator
 import org.example.modules.proposal.validator.LoanValidator
 
-// TODO transformar em uma solução de composição e/ou interfaces
-
-/*
-    as duas listas de erros (errors e newErrors) terão erros, mas deveriam estar vazias, pois o income deveria passar pela validação
-*/
-
+// Este modulo exemplifica a solucao por composicao:
+// `LoanValidator` recebe validadores prontos e combina seus resultados,
+// em vez de herdar comportamento de uma classe base cheia de regras.
 fun main() {
     val validator = LoanValidator(
         listOf(
+            // Cada validador implementa o mesmo contrato (`Validator`),
+            // mas cuida de uma regra especifica.
             CreditScoreValidator(),
+            // A renda minima entra como parametro de configuracao.
+            // Assim, a regra varia sem depender de estado mutavel compartilhado.
             IncomeValidator(minIncome = 3000)
         )
     )

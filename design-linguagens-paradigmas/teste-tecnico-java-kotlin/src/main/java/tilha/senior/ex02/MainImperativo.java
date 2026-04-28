@@ -1,17 +1,13 @@
 import tilha.senior.ex02.Message;
 
 void main() {
-/* Diferenças de Arrays.asList para List.of:
+    /*
+    Contexto:
+    - A versão imperativa do exercício começa com uma lista literal de mensagens.
 
-    Imutabilidade: List.of(...) retorna uma lista verdadeiramente imutável (não permite add, remove nem set).
-    Arrays.asList(...) retorna uma lista de tamanho fixo backed por um array — permite set mas lança UnsupportedOperationException em add/remove.
-
-    null: List.of lança NullPointerException se algum elemento for null; Arrays.asList aceita null.
-    Array de primitivos: Arrays.asList(intArray) cria uma List<int[]> (comportamento inesperado); List.of com varargs evita esse problema.
-
-    Uso recomendado: prefira List.of para listas pequenas e imutáveis (literal de dados). Se precisa de mutabilidade, crie new ArrayList<>(List.of(...))
-    ou new ArrayList<>(Arrays.asList(...)).
-*/
+    Aprendizado:
+    - List.of deixa explícito que a coleção de entrada não será modificada. Isso reduz ruído no exemplo e destaca o processamento imperativo feito nos métodos auxiliares.
+    */
 
     final var messages = List.of(
             new Message("Victor", "texto 1"),
@@ -20,6 +16,7 @@ void main() {
             new Message("Victor", "texto 4")
     );
 
+    // O main apenas orquestra as etapas; a mutabilidade e os detalhes de iteração ficam encapsulados na classe Message.
     final var senderCounts = Message.countMessageBySender(messages);
     final var topSender = Message.getMostFrequentSender(senderCounts);
     final var uniqueSenders = Message.getSortedUniqueSenders(messages);

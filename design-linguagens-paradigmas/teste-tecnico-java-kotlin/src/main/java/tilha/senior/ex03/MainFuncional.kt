@@ -1,4 +1,4 @@
-package tilha.senior.ex03//  Programação Funcional
+package tilha.senior.ex03// Programação funcional com coleções de Kotlin.
 
 data class Message(
     val Sender: String,
@@ -6,6 +6,7 @@ data class Message(
     val IsRead: Boolean = false
 )
 
+// `val` garante imutabilidade de referência para a lista; o exemplo explora transformação de dados, não reatribuição.
 val messages = listOf(
     Message("Victor", "mensagem 1"),
     Message("Alisson", "mensagem 2"),
@@ -15,20 +16,31 @@ val messages = listOf(
 
 fun main() {
 
-    // conta quantas mensagens cada rementete enviou e tambem o remetente que mais enviou mensagem
+    /*
+    Contexto:
+    - A pipeline agrupa as mensagens por remetente e escolhe o grupo com maior quantidade.
+
+    Conceito principal:
+    - Em Kotlin, funções de coleção como groupBy e maxByOrNull permitem compor a regra sem loops explícitos.
+    */
     val frequentSender = messages
-        // .groupBy { message -> message.Sender } dado esse parametro(message), me retorne agrupado por (message.Sender)
-        .groupBy { it.Sender } // o map fica como uma key e uma lista de mensagens => "Victor": ["mensagem 1", "mensagem 2"], "Alisson" -> [Message2]
-        .maxByOrNull { (key, message) -> message.size } // compara os maps, e retorna o map<key, message> da que tiver mais valores(message)
-        ?.key ?: "Unknown sender" // se existir resultado retorne somente a key em vez do map inteiro
+        .groupBy { it.Sender } // O resultado é um Map<String, List<Message>> em que cada chave aponta para as mensagens do remetente.
+        .maxByOrNull { (_, message) -> message.size } // O lambda usa apenas o tamanho do grupo; a chave não participa da comparação.
+        ?.key ?: "Unknown sender" // O operador Elvis define um fallback explícito caso a coleção esteja vazia.
 
     println("-> $frequentSender")
 
-    // ordena a lista, trazendo somente os senders
+    /*
+    Aprendizado:
+    - Esta segunda pipeline evidencia o estilo funcional: cada etapa produz uma nova visão da coleção anterior.
+
+    Ponto de atenção:
+    - `map`, `distinct` e `sorted` descrevem transformação e não mutação in-place; isso ajuda a comparar esta solução com a versão imperativa.
+    */
     val senders = messages
         .filter { it.Body.isNotBlank() && !it.IsRead }
-        .map { it.Sender } // transforma List<Message> em List<String> - map tem uma ideia de TRANSFORMAÇÃO IMUTAVEL
-        .distinct() // remove duplicatas
+        .map { it.Sender } // `map` projeta cada Message para o campo relevante nesta etapa.
+        .distinct() // remove duplicatas sem precisar de estrutura auxiliar explícita
         .sorted()
 
     println("-> $senders")
